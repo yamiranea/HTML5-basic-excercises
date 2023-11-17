@@ -22,3 +22,12 @@ header h1 {
     width: auto;
     float: left;
 }
+
+.img-css3 {
+    margin-right: 33px;
+}
+
+.section-content p {
+    font-size: 15px;
+    text-align: justify;
+}

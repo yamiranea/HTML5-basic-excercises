@@ -1,0 +1,160 @@
+@import url(./main.css);
+
+.rectangle-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%
+}
+
+.rectangle-container div {
+    height: 50px;
+}
+
+.rectangle-container h1 {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.rectangle-100 {
+    background-color: green;
+}
+
+.rectangle-100 h2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.rectangle-container_rows {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.rectangle-container_rows-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle-container_rows-left_row-1,
+.rectangle-container_rows-left_row-2,
+.rectangle-container_rows-left_row-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.rectangle-container_rows-left_row-1_black {
+    background-color: black;
+    width: 33.33%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-left_row-1_teal {
+    background-color: teal;
+    width: 33.33%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-left_row-1_blue {
+    background-color: blue;
+    width: 33.33%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-left_row-2_purple {
+    background-color: purple;
+    width: 33.33%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-left_row-2_yellow {
+    background-color: yellow;
+    width: 33.33%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-left_row-2_olive,
+.rectangle-container_rows-left_row-3_olive {
+    background-color: olive;
+    width: 33.33%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-left_row-3_red {
+    background-color: red;
+    width: 33.33%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-left_row-3_fuchsia {
+    background-color: fuchsia;
+    width: 33.33%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-right {
+    width: 50%;
+    height: 33.33px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle-container_rows-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle-container_rows-right_row-1,
+.rectangle-container_rows-right_row-2,
+.rectangle-container_rows-right_row-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.rectangle-container_rows-right_row-1_navy {
+    background-color: navy;
+    width: 25%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-right_row-1_lime {
+    background-color: lime;
+    width: 50%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-right_row-1_white {
+    background-color: white;
+    width: 25%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-right_row-2_red {
+    background-color: red;
+    width: 25%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-right_row-2_black {
+    background-color: black;
+    width: 50%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-right_row-2_gray {
+    background-color: gray;
+    width: 25%;
+    padding-top: 5%;
+}
+
+.rectangle-container_rows-right_row-3_green {
+    background-color: green;
+    width: 100%;
+    padding-top: 5%;
+}

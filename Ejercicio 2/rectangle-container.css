@@ -3,7 +3,8 @@
 .rectangle-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 30%
+    margin-bottom: 30%;
+    width: 70%;
 }
 
 .rectangle-container div {

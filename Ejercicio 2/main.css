@@ -5,8 +5,8 @@
 
 .content-container {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 162, 173, 1) 0%, rgba(125, 67, 30, 0.63) 46.6%, rgba(162, 44, 166, 1) 90%);
-    width: 40%;
-    height: 433px;
+    width: 30%;
+    height: 460px;
     padding: 0% 10%;
     margin: 0% 10%;
     display: flex;
